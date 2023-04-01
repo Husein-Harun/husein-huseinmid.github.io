@@ -1,0 +1,199 @@
+
+
+
+/* for the always-visible main menu options */
+nav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    float: left;
+  }
+  
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+
+.Links li {
+    float: left;
+    width: 127px;
+    border-right: 1px solid #FFF;
+    font-weight: bold;
+    font-size: 1.0em;
+    text-align: center;
+    list-style: none;
+  }
+  
+  .Links li:last-child {
+    width: 132px;
+    border-right-width: 0;
+  }
+   
+  /* for all links for all menu options */
+  .Links li a, 
+  .Links li span 
+  {
+    display: block;
+    height: 30px;
+    line-height: 25px;
+    background-color: #111;
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  .Links li a:hover {
+    background-color: #333;
+    color: #FFF;
+  }
+  
+  /* for the dropdown menu options */
+  .Links div {
+    position: absolute;
+    background-color: #111;
+    visibility: hidden;
+  }
+  
+  .Links div a {
+    display: block;
+    width: 124px;
+    margin-top: 2px;
+    padding-left: 3px;
+    background-color: #888;
+    color: #FFF;
+    text-align: left;
+  }
+
+
+  /* Form */
+  form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  form input[type=text], form input[type=date], form select {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  form input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  form input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+
+
+
+
+  article#textLeft {
+    float: left;
+    width: 63%;
+    margin-left: 1em;
+  }
+  
+  div#image {
+    float: left;
+    width: 33%;
+    margin: 20px 0 10px;
+    text-align: center;
+  }
+
+
+
+  footer {
+    clear: left;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: #333;
+    color: #DDD;
+    text-align: center;
+    font-weight: bold;
+    font-size: .9em;
+  }
+
+
+
+
+
+  /* Hover effect */
+.project-class:hover {
+    background-color: #ddd;
+    cursor: pointer;
+    }
+
+/* Project classes */
+.project-class {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Project title */
+  .project-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Project information */
+  .project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .project-info p {
+    margin: 0;
+  }
+  
+  /* Project status */
+  .project-status {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Completed projects */
+  .completed-project {
+    color: green;
+  }
+  
+  /* Ongoing projects */
+  .ongoing-project {
+    color: blue;
+  }
+  
+  /* Cancelled projects */
+  .cancelled-project {
+    color: red;
+  }
