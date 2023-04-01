@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Construction Project Management</title>
+        <link rel="stylesheet" href="stylea.css">
+        <script src="rotate.js"></script>
+        <script src="script.js"></script>
+        
+    </head>
+    <body onload="startRotation()">
+        <header>
+
+            <h1>Construction Project Management &reg;</h1>
+            <nav onmouseout="hide()">
+                <ul class="Links">
+                    <li><a href="index.html" onmouseover="show('m1')">Home</a></li>
+    
+                    <li>
+                        <li onmouseover="show('m2')"></span><a href="projects.html"><span onmouseover="show('m2')">Projects</span></a>
+                        
+                            <div id="m2" onmouseover="show('m2')">
+                                <a href="newproject.html">New Projects</a>
+                                <a href="completedproject.html">Completed Projects</a>
+                                <a href="cancelledproject.html">Cancelled Projects</a>
+                            </div>
+                        <li>	
+                    </li>
+    
+                    <li>
+                        <li onmouseover="show('m3')"> <a href="#"><span onmouseover="show('m3')">Contacts</span></a> 
+                            <div id="m3" onmouseover="show('m3')">
+                                <a href="contact.html">Contact Info</a>
+                            </div>
+                        </li>
+                    </li>
+                    
+                </ul>
+                
+            </nav>
+        </header>
+    <main>
+        <h1>Project G</h1>
+        <article id="textLeft">
+            <div class="project-info">
+                <h2>Project Details</h2>
+                <p><strong>Start Date:</strong> January 1, 2023</p>
+                <p><strong>Projected Completion Date:</strong> December 31, 2025</p>
+                <p><strong>Location:</strong> New York City, NY</p>
+            </div>
+            <div class="team-members">
+                <h2>Team Members</h2>
+                <ul>
+                    <li><strong>John Doe</strong> (Project Manager)</li>
+                    <li><strong>Jane Smith</strong> (Architect)</li>
+                    <li><strong>Bob Johnson</strong> (Construction Manager)</li>
+                    <li><strong>Sarah Lee</strong> (Civil Engineer)</li>
+                </ul>
+            </div>
+            <div class="work-progress">
+                <h2>Work Progress</h2>
+                <p>Percentage of work completed: <span id="work-progress-percentage">25%</span></p>
+                <progress id="work-progress" value="25" max="100"></progress>
+            </div>
+        </article>
+        <div id="image">
+            <h2>Project G Images</h2>
+            <img id="placeholder" src=""
+                alt="Construction Projects"
+                width="500" height="450">
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Project Management Website. All rights reserved.</p>
+    </footer>    
+</body>
+</html>
